@@ -137,3 +137,21 @@ body{
 .chat-box-footer send{
     cursor: pointer;
 }
+.chat-button span::before{
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #47cf73;
+    position: absolute;
+    transform: translate(0, -7px);
+    border-radius: 15px;
+  
+}
+.chat-button span::after{
+    content: "Message Us";
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top : 18px;
+}
